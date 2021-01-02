@@ -20,7 +20,7 @@ public class ExceptionsDemo {
 		} catch (Exception e) {
 			System.out.println("Hello");
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			
 		}
 		// 2. Now call testMethod1 with a value greater than 5. 
 		//    Running your program should not print the statement
@@ -52,4 +52,5 @@ public class ExceptionsDemo {
 	
 	// 4. Create a static void method called testMethod2(int x) that throws
 	//    a CustomException if x is negative.
+	
 }
