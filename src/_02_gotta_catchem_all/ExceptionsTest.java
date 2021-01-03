@@ -4,6 +4,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
+	
+
 
 class ExceptionsTest {
 	ExceptionMethods em = new ExceptionMethods();
@@ -32,6 +34,11 @@ class ExceptionsTest {
 	//3. Complete the JUnit test method to test the divide method.
 	@Test
 	public void testDivideByZeroException() {
+		assertEquals(6, ExceptionMethods.divide(18.0, 3.0));
+		assertEquals(3, ExceptionMethods.divide(18.0, 6.0));
+		assertEquals(3, ExceptionMethods.divide(21.0, 7.0));
+		assertEquals(3, ExceptionMethods.divide(24.0, 8.0));
+		assertEquals(3, ExceptionMethods.divide(27.0, 9.0));
 		
 	}
 	
