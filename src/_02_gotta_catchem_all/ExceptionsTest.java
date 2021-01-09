@@ -4,6 +4,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
+
+
 	
 
 
@@ -49,7 +51,11 @@ class ExceptionsTest {
 	//5. Complete the JUnit test method to test the reverseStringMethod.
 	@Test
 	public void testReverseString() {
-		
+		assertEquals("tset", ExceptionMethods.reverseString("test"));
+		assertEquals("sey", ExceptionMethods.reverseString("yes"));
+		assertEquals("good job", ExceptionMethods.reverseString("boj doog"));
+		assertEquals("taerg", ExceptionMethods.reverseString("great"));
+
 	}
 	
 	
